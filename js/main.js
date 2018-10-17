@@ -9,4 +9,7 @@ $(document).ready(function () {
 window.addEventListener("gamepadconnected",function (e) {
     console.log("connected");
 })
+window.addEventListener("gamepaddisconnected",function (e) {
+    console.log("disconnected");
+})
 
