@@ -5,3 +5,8 @@
 $(document).ready(function () {
     console.log("ready");
 });
+
+window.addEventListener("gamepadconnected",function (e) {
+    console.log("connected");
+})
+
