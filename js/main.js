@@ -14,6 +14,7 @@ function reportOnGamepad() {
         html+= "Button "+(i+1)+": ";
         if(gp.buttons[i].pressed) html+= " pressed";
         html+= "<br/>";
+        console.log("test");
     }
 
     for(var i=0;i<gp.axes.length; i+=2) {
